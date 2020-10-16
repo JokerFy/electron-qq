@@ -6,6 +6,9 @@ import router from './router'
 import store from './store'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import './assets/font/iconfont.css'
+import './assets/reset.css'
+import './assets/font/iconfont'
 Vue.use(ElementUI);
 
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))

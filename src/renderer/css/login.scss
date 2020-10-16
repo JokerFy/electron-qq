@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,body,.el-container {
+  height: 100%;
+}
+
+.el-header.no-padding,.el-footer.no-padding{
+  padding: 0 0;
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+}
+
+.height-row{
+  height:30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.flex-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.el-main {
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+}
+
+.text-input{
+  .el-input__inner{
+    border-top:0;
+    border-left:0;
+    border-right:0;
+  }
+}
+
+.ele_drag {
+  -webkit-app-region: drag; /* 让元素可拖动，设置了drag的元素不可点击 */
+}
