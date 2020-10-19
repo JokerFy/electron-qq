@@ -33,6 +33,10 @@ function createWindow () {
   ipcMain.on('login-window', () => {
     mainWindow.setSize(250, 315)
   })
+
+  ipcMain.on('close-window', () => {
+    mainWindow.close()
+  })
 }
 
 app.on('ready', createWindow)
